@@ -2,24 +2,17 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
+    align-items: center;
+    font-family: Arial, sans-serif; /* add a font family to the body */
 }
+
 header {
     background-color: #2E4053;
     color: #F7F7F7; 
     padding: 20px;
     text-align: center;
-}
-
-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    font-family: Arial, sans-serif; 
-}
-
-header p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-style: italic; 
+    width: 80%;
+    margin: 0 auto;
 }
 
 header ul {
@@ -49,6 +42,7 @@ main {
     flex-direction: row;
     flex: auto;
     padding: 20px; 
+    align-items: flex-start;
 }
 
 article {
@@ -56,13 +50,18 @@ article {
     overflow-y: auto;
     background-color: #fff; 
     padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px; /* add a border radius to the article */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the article */
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
 th, td {
@@ -90,12 +89,17 @@ aside {
     overflow-y: auto;
     background-color: #f7f7f7; 
     padding: 20px; 
+    margin: 0 20px;
+    border-radius: 10px; /* add a border radius to the aside */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the aside */
 }
 
 h1, h2 {
     color: #333;
+    font-weight: bold; /* add a font weight to the headings */
 }
 
 p {
     color: #666; 
+    font-size: 18px; /* add a font size to the paragraphs */
 }
