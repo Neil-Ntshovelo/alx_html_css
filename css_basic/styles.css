@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     background-color: #f2f2f2;
     align-items: center;
-    font-family: Arial, sans-serif; /* add a font family to the body */
+    font-family: Arial, sans-serif; 
 }
 
 header {
@@ -51,8 +51,8 @@ article {
     background-color: #fff; 
     padding: 20px;
     margin: 0 20px;
-    border-radius: 10px; /* add a border radius to the article */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the article */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 table {
@@ -90,16 +90,16 @@ aside {
     background-color: #f7f7f7; 
     padding: 20px; 
     margin: 0 20px;
-    border-radius: 10px; /* add a border radius to the aside */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the aside */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 h1, h2 {
     color: #333;
-    font-weight: bold; /* add a font weight to the headings */
+    font-weight: bold; 
 }
 
 p {
     color: #666; 
-    font-size: 18px; /* add a font size to the paragraphs */
+    font-size: 18px; 
 }
