@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.one{
+  width:100%;
+  max-width: 1440px;
+  height:150vh;
+  background: url(Object.png)no-repeat center center/cover;
+ 
+}
+nav{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+  
+  
+} 
+ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  top: 37px;
+  
+ 
+}
+li {
+  display: inline-block;
+  top: 35px;
+  margin-inline: 1.5rem;
+}
+li a{
+  color: #fff;
+  text-decoration: none;
+}
+li a:hover,li a:focus {
+  text-decoration: underline;
+}
+.main-content {
+  margin-top: 150px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 150px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+.subtext {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px 0;
+  gap: 20px;
+
+}
+.subtext span {
+  font-size: 16px;
+  color: #fff;
+  margin-inline: 10px;
+  line-height: 20.1px;
+  font-weight: 700;
+}
+.firstB {
+  background-color: #c271ff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 20px auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  margin-top: 180px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+  text-align :center
+  
+}
+
+/* 
+  profile section */
+
+.profiles {
+  display: flex; 
+  justify-content: center;
+  color :#fff ;
+  gap: 50px;
+  margin-top: 150px;
+
+}
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.profile p {
+  font-size: 14px;
+  color: #b0b0b0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b0b0b0
+}
+.boxTwo {
+  width :1440px;
+  height: 392px;
+  top: 1093px;
+  background-color: #c271ff;
+  color :#fff ;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.imgPresenter {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.con {
+  max-width : 600px;
+  text-align: left;
+  
+}
+.boxTwo blockquote {
+  font-weight:400;
+  font-size : 22px;
+  line-height: 33.6px;
+  margin-right: 3.5rem;
+  line-height: 33.6px;;
+}
+.author {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.role {
+  font-style: italic;
+  color :#dcdcdc;
+}
+
+  
