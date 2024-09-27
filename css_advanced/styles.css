@@ -102,16 +102,20 @@ h2{
 
 }
 .profile img {
+  display: flex;
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
 h3 {
+  display: flex;
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+ 
 }
 .profile p {
+  display: flex;
   font-size: 14px;
   color: #b0b0b0;
   display: flex;
@@ -119,7 +123,9 @@ h3 {
   align-items: center;
   color: #b0b0b0
 }
+/* Author section */
 .boxTwo {
+  display: flex;
   width :1440px;
   height: 392px;
   top: 1093px;
@@ -147,15 +153,172 @@ h3 {
   font-size : 22px;
   line-height: 33.6px;
   margin-right: 3.5rem;
-  line-height: 33.6px;;
+  line-height: 33.6px;
+  margin-left: 5rem;
 }
 .author {
   font-weight: bolder;
   font-size: 35px;
+  margin-left: 5rem;
 }
 .role {
   font-style: italic;
   color :#dcdcdc;
+  margin-left: 5rem;
 }
+.tutorials {
+  padding: 50px 20px;
+  text-align: center;
+}
+.tut {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40.22px;
+  text-align: center;
+  counter-reset: #333;
+}
+.tutorials .cards {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 255px;
+height: 335px;
+top: 115px;
+text-align: left;
+padding: 20px;
+}
+.card img {
+width: 100%;
+border-radius: 10px;
+}
+.card h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 
+}
+.card p {
+font-size: 0.9em;
+color: #666;
+
+}
+.card .author {
+display: flex;
+align-items: left;
+margin-top: 10px;
+}
+.card .author img,
+.card .author span {
+  margin-left: 0;
+}
+.card .author img {
+border-radius: 50%;
+width: 30px;
+height: 30px;
+
+}
+.card .author span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
   
+  
+}
+/* membership */
+.membership {
+  background-color: #071629;
+  color: #fff;
+  padding: 50px 20px;
+  
+}
+.membership h2 {
+  margin: auto;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40.22px;
+  text-align: center;
+}
+.membership .features {
+  margin: 75px;
+  display: flex;
+  gap: 20px;
+  
+}
+.T {
+  text-align: left;
+}
+.T img{
+  text-align: left;
+}
+.T h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.btn {
+  background-color: #c271ff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 20px auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* faq */
+.faq {
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+.faq h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 75.42px;
+  
+}
+.faq .questions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.question {
+  width: 200px;
+  text-align: left;
+}
+.question h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.question p {
+  font-size: 0.9em;
+  color: #666;
+}
+/* footer */
+.footer {
+  background-color: #1a1a2e;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+.footer .social {
+  margin: 10px 0;
+}
+.footer .social i {
+  margin: 0 10px;
+  font-size: 1.2em;
+  color: white;
+}
+.c {
+  text-align: center;
+}
