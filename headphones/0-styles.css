@@ -97,7 +97,7 @@ p {
     margin-top: 100px;
 }
 /* Responsive Design for Mobile */
-@media (max-width: 768sssssspx) {
+@media (max-width: 480px) {
     body {
         background-color: #fff; 
     }
